@@ -17,10 +17,12 @@ NSUInteger YGSearchOfTagPairs(NSArray<YGHTMLTagRanged *> *array, NSUInteger inde
 @end
 */
 @implementation YGHTMLElements{
+    
     NSMutableArray *_elements;
 }
 
--(instancetype)init{
+
+- (instancetype)init{
     self = [super init];
     if(self){
         _elements = [[NSMutableArray alloc] init];
@@ -28,9 +30,11 @@ NSUInteger YGSearchOfTagPairs(NSArray<YGHTMLTagRanged *> *array, NSUInteger inde
     return self;
 }
 
+
 - (NSArray *)array{
     return [_elements copy];
 }
+
 
 - (void)makeElementsFromTags:(YGHTMLTags *)tags inHTML:(NSString *)html{
     
@@ -55,14 +59,9 @@ NSUInteger YGSearchOfTagPairs(NSArray<YGHTMLTagRanged *> *array, NSUInteger inde
 NSUInteger YGSearchOfTagPairs(NSArray<YGHTMLTagRanged *> *array, NSUInteger index, NSMutableArray<YGHTMLElementRanged *> *elements, NSString *html){
     
     NSUInteger prevIndex = 0;
-    YGHTMLTagRanged *curTag = nil, *prevTag = nil;
     YGHTMLElementRanged *element = nil;
     
     do{
-        
-        //curTag = array[index];
-        
-        //printf("\nindex %lu", index);
         
         if(array[index].isOpen == NO){
             return index;
@@ -89,12 +88,13 @@ NSUInteger YGSearchOfTagPairs(NSArray<YGHTMLTagRanged *> *array, NSUInteger inde
     }while(index < [array count]);
     
     return index == [array count] ? index - 1 : index;
-    
 }
+
 
 - (void)addElement:(YGHTMLElementRanged *)element{
     [_elements addObject:element];
 }
+
 
 /**
  Sort html elements in location ascending direction.
@@ -111,4 +111,5 @@ NSUInteger YGSearchOfTagPairs(NSArray<YGHTMLTagRanged *> *array, NSUInteger inde
             return NSOrderedSame;
     }];
 }
+
 @end
