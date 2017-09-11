@@ -7,14 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1372BBF51ECE46A400C220B0 /* YGHTMLRanged.h in Headers */ = {isa = PBXBuildFile; fileRef = 1372BBF41ECE46A400C220B0 /* YGHTMLRanged.h */; };
+		1372BBF51ECE46A400C220B0 /* YGHTMLRanged.h in Headers */ = {isa = PBXBuildFile; fileRef = 1372BBF41ECE46A400C220B0 /* YGHTMLRanged.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1372BBF71ECE46A400C220B0 /* YGHTMLRanged.m in Sources */ = {isa = PBXBuildFile; fileRef = 1372BBF61ECE46A400C220B0 /* YGHTMLRanged.m */; };
+		1372BC221ECE478200C220B0 /* YGHTMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 1372BC101ECE478200C220B0 /* YGHTMLElement.m */; };
+		1372BC231ECE478200C220B0 /* YGHTMLTags.m in Sources */ = {isa = PBXBuildFile; fileRef = 1372BC111ECE478200C220B0 /* YGHTMLTags.m */; };
+		1372BC241ECE478200C220B0 /* YGHTMLTag.h in Headers */ = {isa = PBXBuildFile; fileRef = 1372BC121ECE478200C220B0 /* YGHTMLTag.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1372BC251ECE478200C220B0 /* YGHTMLElements.h in Headers */ = {isa = PBXBuildFile; fileRef = 1372BC131ECE478200C220B0 /* YGHTMLElements.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1372BC261ECE478200C220B0 /* YGHTMLAttributeRanged.m in Sources */ = {isa = PBXBuildFile; fileRef = 1372BC141ECE478200C220B0 /* YGHTMLAttributeRanged.m */; };
+		1372BC271ECE478200C220B0 /* YGHTMLAttributeRanged.h in Headers */ = {isa = PBXBuildFile; fileRef = 1372BC151ECE478200C220B0 /* YGHTMLAttributeRanged.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1372BC281ECE478200C220B0 /* YGHTMLAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 1372BC161ECE478200C220B0 /* YGHTMLAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1372BC291ECE478200C220B0 /* YGHTMLAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 1372BC171ECE478200C220B0 /* YGHTMLAttribute.m */; };
+		1372BC2A1ECE478200C220B0 /* YGHTML.h in Headers */ = {isa = PBXBuildFile; fileRef = 1372BC181ECE478200C220B0 /* YGHTML.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1372BC2B1ECE478200C220B0 /* YGHTMLTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 1372BC191ECE478200C220B0 /* YGHTMLTag.m */; };
+		1372BC2C1ECE478200C220B0 /* YGHTMLBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1372BC1A1ECE478200C220B0 /* YGHTMLBuilder.m */; };
+		1372BC2D1ECE478200C220B0 /* YGHTMLBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 1372BC1B1ECE478200C220B0 /* YGHTMLBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1372BC2E1ECE478200C220B0 /* YGHTMLElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 1372BC1C1ECE478200C220B0 /* YGHTMLElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1372BC2F1ECE478200C220B0 /* YGHTMLElementRanged.m in Sources */ = {isa = PBXBuildFile; fileRef = 1372BC1D1ECE478200C220B0 /* YGHTMLElementRanged.m */; };
+		1372BC301ECE478200C220B0 /* YGHTMLElementRanged.h in Headers */ = {isa = PBXBuildFile; fileRef = 1372BC1E1ECE478200C220B0 /* YGHTMLElementRanged.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1372BC311ECE478200C220B0 /* YGHTMLElements.m in Sources */ = {isa = PBXBuildFile; fileRef = 1372BC1F1ECE478200C220B0 /* YGHTMLElements.m */; };
+		1372BC321ECE478200C220B0 /* YGHTMLTags.h in Headers */ = {isa = PBXBuildFile; fileRef = 1372BC201ECE478200C220B0 /* YGHTMLTags.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1372BC331ECE478200C220B0 /* YGHTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 1372BC211ECE478200C220B0 /* YGHTML.m */; };
+		1372BC361ECE481F00C220B0 /* YGHTMLTagRanged.m in Sources */ = {isa = PBXBuildFile; fileRef = 1372BC341ECE481F00C220B0 /* YGHTMLTagRanged.m */; };
+		1372BC371ECE481F00C220B0 /* YGHTMLTagRanged.h in Headers */ = {isa = PBXBuildFile; fileRef = 1372BC351ECE481F00C220B0 /* YGHTMLTagRanged.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1372BBF11ECE46A400C220B0 /* libYGHTMLRanged.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libYGHTMLRanged.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		1372BBF41ECE46A400C220B0 /* YGHTMLRanged.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YGHTMLRanged.h; sourceTree = "<group>"; };
 		1372BBF61ECE46A400C220B0 /* YGHTMLRanged.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YGHTMLRanged.m; sourceTree = "<group>"; };
+		1372BC101ECE478200C220B0 /* YGHTMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGHTMLElement.m; sourceTree = "<group>"; };
+		1372BC111ECE478200C220B0 /* YGHTMLTags.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGHTMLTags.m; sourceTree = "<group>"; };
+		1372BC121ECE478200C220B0 /* YGHTMLTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGHTMLTag.h; sourceTree = "<group>"; };
+		1372BC131ECE478200C220B0 /* YGHTMLElements.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGHTMLElements.h; sourceTree = "<group>"; };
+		1372BC141ECE478200C220B0 /* YGHTMLAttributeRanged.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGHTMLAttributeRanged.m; sourceTree = "<group>"; };
+		1372BC151ECE478200C220B0 /* YGHTMLAttributeRanged.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGHTMLAttributeRanged.h; sourceTree = "<group>"; };
+		1372BC161ECE478200C220B0 /* YGHTMLAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGHTMLAttribute.h; sourceTree = "<group>"; };
+		1372BC171ECE478200C220B0 /* YGHTMLAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGHTMLAttribute.m; sourceTree = "<group>"; };
+		1372BC181ECE478200C220B0 /* YGHTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGHTML.h; sourceTree = "<group>"; };
+		1372BC191ECE478200C220B0 /* YGHTMLTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGHTMLTag.m; sourceTree = "<group>"; };
+		1372BC1A1ECE478200C220B0 /* YGHTMLBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGHTMLBuilder.m; sourceTree = "<group>"; };
+		1372BC1B1ECE478200C220B0 /* YGHTMLBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGHTMLBuilder.h; sourceTree = "<group>"; };
+		1372BC1C1ECE478200C220B0 /* YGHTMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGHTMLElement.h; sourceTree = "<group>"; };
+		1372BC1D1ECE478200C220B0 /* YGHTMLElementRanged.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGHTMLElementRanged.m; sourceTree = "<group>"; };
+		1372BC1E1ECE478200C220B0 /* YGHTMLElementRanged.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGHTMLElementRanged.h; sourceTree = "<group>"; };
+		1372BC1F1ECE478200C220B0 /* YGHTMLElements.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGHTMLElements.m; sourceTree = "<group>"; };
+		1372BC201ECE478200C220B0 /* YGHTMLTags.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGHTMLTags.h; sourceTree = "<group>"; };
+		1372BC211ECE478200C220B0 /* YGHTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGHTML.m; sourceTree = "<group>"; };
+		1372BC341ECE481F00C220B0 /* YGHTMLTagRanged.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGHTMLTagRanged.m; sourceTree = "<group>"; };
+		1372BC351ECE481F00C220B0 /* YGHTMLTagRanged.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGHTMLTagRanged.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +89,26 @@
 			children = (
 				1372BBF41ECE46A400C220B0 /* YGHTMLRanged.h */,
 				1372BBF61ECE46A400C220B0 /* YGHTMLRanged.m */,
+				1372BC131ECE478200C220B0 /* YGHTMLElements.h */,
+				1372BC1F1ECE478200C220B0 /* YGHTMLElements.m */,
+				1372BC201ECE478200C220B0 /* YGHTMLTags.h */,
+				1372BC111ECE478200C220B0 /* YGHTMLTags.m */,
+				1372BC1B1ECE478200C220B0 /* YGHTMLBuilder.h */,
+				1372BC1A1ECE478200C220B0 /* YGHTMLBuilder.m */,
+				1372BC1E1ECE478200C220B0 /* YGHTMLElementRanged.h */,
+				1372BC1D1ECE478200C220B0 /* YGHTMLElementRanged.m */,
+				1372BC1C1ECE478200C220B0 /* YGHTMLElement.h */,
+				1372BC101ECE478200C220B0 /* YGHTMLElement.m */,
+				1372BC351ECE481F00C220B0 /* YGHTMLTagRanged.h */,
+				1372BC341ECE481F00C220B0 /* YGHTMLTagRanged.m */,
+				1372BC121ECE478200C220B0 /* YGHTMLTag.h */,
+				1372BC191ECE478200C220B0 /* YGHTMLTag.m */,
+				1372BC151ECE478200C220B0 /* YGHTMLAttributeRanged.h */,
+				1372BC141ECE478200C220B0 /* YGHTMLAttributeRanged.m */,
+				1372BC161ECE478200C220B0 /* YGHTMLAttribute.h */,
+				1372BC171ECE478200C220B0 /* YGHTMLAttribute.m */,
+				1372BC181ECE478200C220B0 /* YGHTML.h */,
+				1372BC211ECE478200C220B0 /* YGHTML.m */,
 			);
 			path = YGHTMLRanged;
 			sourceTree = "<group>";
@@ -60,7 +120,17 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1372BC371ECE481F00C220B0 /* YGHTMLTagRanged.h in Headers */,
+				1372BC281ECE478200C220B0 /* YGHTMLAttribute.h in Headers */,
+				1372BC241ECE478200C220B0 /* YGHTMLTag.h in Headers */,
+				1372BC301ECE478200C220B0 /* YGHTMLElementRanged.h in Headers */,
+				1372BC2D1ECE478200C220B0 /* YGHTMLBuilder.h in Headers */,
 				1372BBF51ECE46A400C220B0 /* YGHTMLRanged.h in Headers */,
+				1372BC2E1ECE478200C220B0 /* YGHTMLElement.h in Headers */,
+				1372BC321ECE478200C220B0 /* YGHTMLTags.h in Headers */,
+				1372BC251ECE478200C220B0 /* YGHTMLElements.h in Headers */,
+				1372BC271ECE478200C220B0 /* YGHTMLAttributeRanged.h in Headers */,
+				1372BC2A1ECE478200C220B0 /* YGHTML.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,7 +192,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1372BC311ECE478200C220B0 /* YGHTMLElements.m in Sources */,
+				1372BC2F1ECE478200C220B0 /* YGHTMLElementRanged.m in Sources */,
+				1372BC291ECE478200C220B0 /* YGHTMLAttribute.m in Sources */,
+				1372BC261ECE478200C220B0 /* YGHTMLAttributeRanged.m in Sources */,
 				1372BBF71ECE46A400C220B0 /* YGHTMLRanged.m in Sources */,
+				1372BC2B1ECE478200C220B0 /* YGHTMLTag.m in Sources */,
+				1372BC331ECE478200C220B0 /* YGHTML.m in Sources */,
+				1372BC361ECE481F00C220B0 /* YGHTMLTagRanged.m in Sources */,
+				1372BC221ECE478200C220B0 /* YGHTMLElement.m in Sources */,
+				1372BC2C1ECE478200C220B0 /* YGHTMLBuilder.m in Sources */,
+				1372BC231ECE478200C220B0 /* YGHTMLTags.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,6 +304,7 @@
 				DEVELOPMENT_TEAM = EF64T58JW4;
 				EXECUTABLE_PREFIX = lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
 			};
 			name = Debug;
 		};
@@ -233,6 +314,7 @@
 				DEVELOPMENT_TEAM = EF64T58JW4;
 				EXECUTABLE_PREFIX = lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
 			};
 			name = Release;
 		};

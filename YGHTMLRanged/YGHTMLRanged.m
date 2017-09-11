@@ -10,4 +10,6 @@
 
 @implementation YGHTMLRanged
 
+
+
 @end
