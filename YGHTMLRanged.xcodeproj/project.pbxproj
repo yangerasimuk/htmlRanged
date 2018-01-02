@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1356D4881FFC324C0031C683 /* YGHTMLRanged.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1372BBF41ECE46A400C220B0 /* YGHTMLRanged.h */; };
+		1356D4891FFC324C0031C683 /* YGHTMLElements.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1372BC131ECE478200C220B0 /* YGHTMLElements.h */; };
+		1356D48A1FFC324C0031C683 /* YGHTMLTags.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1372BC201ECE478200C220B0 /* YGHTMLTags.h */; };
+		1356D48B1FFC324C0031C683 /* YGHTMLBuilder.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1372BC1B1ECE478200C220B0 /* YGHTMLBuilder.h */; };
+		1356D48C1FFC324C0031C683 /* YGHTMLElementRanged.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1372BC1E1ECE478200C220B0 /* YGHTMLElementRanged.h */; };
+		1356D48D1FFC324C0031C683 /* YGHTMLElement.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1372BC1C1ECE478200C220B0 /* YGHTMLElement.h */; };
+		1356D48E1FFC324C0031C683 /* YGHTMLTagRanged.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1372BC351ECE481F00C220B0 /* YGHTMLTagRanged.h */; };
+		1356D48F1FFC324C0031C683 /* YGHTMLTag.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1372BC121ECE478200C220B0 /* YGHTMLTag.h */; };
+		1356D4901FFC324C0031C683 /* YGHTMLAttributeRanged.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1372BC151ECE478200C220B0 /* YGHTMLAttributeRanged.h */; };
+		1356D4911FFC324C0031C683 /* YGHTMLAttribute.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1372BC161ECE478200C220B0 /* YGHTMLAttribute.h */; };
+		1356D4921FFC324C0031C683 /* YGHTML.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1372BC181ECE478200C220B0 /* YGHTML.h */; };
+		1356D4931FFC325E0031C683 /* libYGHTMLRanged.a in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1372BBF11ECE46A400C220B0 /* libYGHTMLRanged.a */; };
 		1372BBF51ECE46A400C220B0 /* YGHTMLRanged.h in Headers */ = {isa = PBXBuildFile; fileRef = 1372BBF41ECE46A400C220B0 /* YGHTMLRanged.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1372BBF71ECE46A400C220B0 /* YGHTMLRanged.m in Sources */ = {isa = PBXBuildFile; fileRef = 1372BBF61ECE46A400C220B0 /* YGHTMLRanged.m */; };
 		1372BC221ECE478200C220B0 /* YGHTMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 1372BC101ECE478200C220B0 /* YGHTMLElement.m */; };
@@ -30,6 +42,39 @@
 		1372BC361ECE481F00C220B0 /* YGHTMLTagRanged.m in Sources */ = {isa = PBXBuildFile; fileRef = 1372BC341ECE481F00C220B0 /* YGHTMLTagRanged.m */; };
 		1372BC371ECE481F00C220B0 /* YGHTMLTagRanged.h in Headers */ = {isa = PBXBuildFile; fileRef = 1372BC351ECE481F00C220B0 /* YGHTMLTagRanged.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1356D4851FFC31A30031C683 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(USER_LIBRARY_DIR)/YGHTMLRanged";
+			dstSubfolderSpec = 0;
+			files = (
+				1356D4931FFC325E0031C683 /* libYGHTMLRanged.a in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1356D4871FFC32080031C683 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(USER_LIBRARY_DIR)/YGHTMLRanged/include";
+			dstSubfolderSpec = 0;
+			files = (
+				1356D4881FFC324C0031C683 /* YGHTMLRanged.h in CopyFiles */,
+				1356D4891FFC324C0031C683 /* YGHTMLElements.h in CopyFiles */,
+				1356D48A1FFC324C0031C683 /* YGHTMLTags.h in CopyFiles */,
+				1356D48B1FFC324C0031C683 /* YGHTMLBuilder.h in CopyFiles */,
+				1356D48C1FFC324C0031C683 /* YGHTMLElementRanged.h in CopyFiles */,
+				1356D48D1FFC324C0031C683 /* YGHTMLElement.h in CopyFiles */,
+				1356D48E1FFC324C0031C683 /* YGHTMLTagRanged.h in CopyFiles */,
+				1356D48F1FFC324C0031C683 /* YGHTMLTag.h in CopyFiles */,
+				1356D4901FFC324C0031C683 /* YGHTMLAttributeRanged.h in CopyFiles */,
+				1356D4911FFC324C0031C683 /* YGHTMLAttribute.h in CopyFiles */,
+				1356D4921FFC324C0031C683 /* YGHTML.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1372BBF11ECE46A400C220B0 /* libYGHTMLRanged.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libYGHTMLRanged.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -144,6 +189,8 @@
 				1372BBED1ECE46A400C220B0 /* Sources */,
 				1372BBEE1ECE46A400C220B0 /* Frameworks */,
 				1372BBEF1ECE46A400C220B0 /* Headers */,
+				1356D4851FFC31A30031C683 /* CopyFiles */,
+				1356D4871FFC32080031C683 /* CopyFiles */,
 			);
 			buildRules = (
 			);
